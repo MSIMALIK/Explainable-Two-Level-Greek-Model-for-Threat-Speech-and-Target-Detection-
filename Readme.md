@@ -44,7 +44,6 @@ Evaluation includes **Accuracy, weighted Precision, weighted Recall, weighted F1
 | File | Description |
 | --- | --- |
 | `README.md` | Project overview and setup instructions |
-| `Readme.txt` | Existing project description and research references |
 | `LaBSE.ipynb` | LaBSE training and evaluation for threat detection |
 | `Methodologies_1.ipynb` | Threat detection experiments, attention visualization, and SHAP analysis |
 | `Target_identification-fine-tunning.ipynb` | Target classification training, evaluation, and explanation experiments |
