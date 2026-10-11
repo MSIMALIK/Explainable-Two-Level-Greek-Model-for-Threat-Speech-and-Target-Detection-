@@ -100,7 +100,7 @@ The content is included solely for research and academic purposes.
 
 ## 📄 License
 
-The existing [Readme.txt](Readme.txt) states that this project uses the **MIT License**. A standalone `LICENSE` file is not currently included in the repository.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
 
