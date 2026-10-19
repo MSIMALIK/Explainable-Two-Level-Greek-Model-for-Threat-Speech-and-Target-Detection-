@@ -25,22 +25,6 @@ The seven studies listed under [References](#references) are related work on thr
 
 Target identification distinguishes between **group** and **individual** targets in threatening text. It does not identify a person's name or predict fine-grained community categories.
 
-## Workflow
-
-```mermaid
-flowchart TD
-    A[Greek text] --> B[LaBSE tokenization]
-    B --> C[Level 1: Threat classifier]
-    C --> D[Non-Threatening]
-    C --> E[Threatening]
-    E --> F[Level 2: Target classifier]
-    F --> G[Group]
-    F --> H[Individual]
-    C -.-> I[SHAP and LIME explanations]
-    F -.-> I
-```
-
-*Conceptual two-level decision flow. The notebooks train and evaluate the tasks separately; connecting their predictions into an automatic cascade requires an integration step.*
 
 <!-- To use your own workflow picture, upload docs/workflow.png and replace the Mermaid block above with:
 ![Workflow for Greek threat speech and target detection](docs/workflow.png)
